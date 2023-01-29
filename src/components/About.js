@@ -5,7 +5,7 @@ function About(props){
 	return(
 		<>
 		<h1>This is {props.title}</h1>
-		<img src={logo} width="150" height="150"/>
+		<img src={logo} alt="react logo" width="150" height="150"/>
 		</>
 	);
 }
